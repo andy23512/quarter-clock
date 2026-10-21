@@ -1,0 +1,15 @@
+{
+  "name": "quarter-clock",
+  "version": "1.0.0",
+  "description": "分針だけの時計。15〜30分と45〜60分は休息時間として緑で表示する。",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager . QuarterClock --platform=darwin --arch=arm64 --out=dist --overwrite --ignore=^/dist"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@electron/packager": "^20.3.0",
+    "electron": "^45.0.0"
+  }
+}
